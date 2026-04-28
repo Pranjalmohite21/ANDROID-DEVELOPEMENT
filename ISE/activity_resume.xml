@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/resume_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F2F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESUME"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#6200EE"
+            android:letterSpacing="0.4"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Header Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF">
+
+                <ImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/pranjal"
+                    android:scaleType="centerCrop"
+                    android:background="#EEEEEE"
+                    android:padding="2dp"
+                    app:layout_constraintDimensionRatio="1:1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PRANJAL MOHITE"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="#1A1A1A"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📍 Kolhapur, Maharashtra"
+                        android:textSize="12sp"
+                        android:textColor="#757575"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Contact Section -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACT INFORMATION"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="#6200EE"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📧 pranjalmohite@email.com"
+                    android:textSize="14sp"
+                    android:textColor="#444444"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📱 +91 98765 43210"
+                    android:textSize="14sp"
+                    android:textColor="#444444"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔗 linkedin.com/in/pranjalmohite"
+                    android:textSize="14sp"
+                    android:textColor="#6200EE"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Education Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EDUCATION"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#6200EE"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Tech in Computer Science &amp; Engineering"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#1A1A1A"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="D.Y. PATIL COLLEGE OF ENGG AND TECH KOLHAPUR"
+                    android:textSize="13sp"
+                    android:textColor="#444444"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2021 - 2025 | CGPA: 9.1"
+                    android:textSize="13sp"
+                    android:textColor="#6200EE"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Skills Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TECHNICAL SKILLS"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#6200EE"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Languages: Java, Python, C++, SQL\n• Mobile: Android Development (Kotlin/Java)\n• Web: HTML, CSS, JavaScript, React\n• Tools: Git, VS Code, Android Studio"
+                    android:lineSpacingExtra="6dp"
+                    android:textSize="14sp"
+                    android:textColor="#444444"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Projects Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACADEMIC PROJECTS"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#6200EE"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="College Event Management System"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A1A"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Developed a Java-based application to manage and track college events and student registrations."
+                    android:textSize="13sp"
+                    android:textColor="#666666"
+                    android:layout_marginTop="4dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#EEEEEE"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Smart Attendance App"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A1A"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Created an Android application using Firebase for real-time attendance tracking with QR codes."
+                    android:textSize="13sp"
+                    android:textColor="#666666"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="BACK TO LOGIN"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            app:cornerRadius="28dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
